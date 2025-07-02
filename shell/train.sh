@@ -1,4 +1,4 @@
-echo $1, $2
+echo $1
 output_dir="./output"
 base_model="../llama-7b-hf/"
 train_data="./data/sample_data/train.json"
@@ -29,9 +29,7 @@ do
                     --lora_target_modules '[q_proj,v_proj]' \
                     --train_on_inputs False\
                     --group_by_length True\
-                    --resume_from_checkpoint $instruction_model \
-                    --sample $sample \
-                    --seed $2 
+                    --resume_from_checkpoint $instruction_model
         done
     done
 done
