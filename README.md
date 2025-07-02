@@ -13,7 +13,9 @@ On this sample data:
   - AUC: 0.8485 
   - Logloss: 0.2945 
   - (4 fine-tuning epochs)
+  
 Please run them on A100/A800 80/40G GPU.
+
 ## Setup
 
 The python packages are in the `requirement.txt` and you could install necessary ones.
