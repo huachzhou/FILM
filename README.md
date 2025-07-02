@@ -4,7 +4,7 @@ The sample data from Amazon Movies and example fine-tuning code for FILM and Bas
 
 ## Performance
 
-On this sample data:
+On this sample data with Llama-7b-hf:
 - **FILM performance**: 
   - AUC: 0.8670 
   - Logloss: 0.2796 
