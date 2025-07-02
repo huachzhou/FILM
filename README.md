@@ -13,7 +13,7 @@ On this sample data:
   - AUC: 0.8485 
   - Logloss: 0.2945 
   - (4 fine-tuning epochs)
-
+Please run them on A100/A800 80/40G GPU.
 ## Setup
 
 The python packages are in the `requirement.txt` and you could install necessary ones.
@@ -24,7 +24,8 @@ To run the code:
 
 ```bash
 ./shell/instruct_film.sh GPU_id
+```
 
 ## 📮 Contact
-For any questions or feedback, please contact:
+For any questions or feedback, please leave a issue or contact:
 - Huachi Zhou - huachi.zhou@connect.polyu.hk
